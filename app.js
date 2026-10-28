@@ -15,7 +15,7 @@
         const binary = atob(data.base64);
         bytes = Uint8Array.from(binary, character => character.charCodeAt(0));
       } else {
-        const response = await fetch('assets/tabletop-scan.glb?v=remesh-8k-20261028');
+        const response = await fetch('assets/tabletop-scan.glb?v=remesh-100-8k-20261028');
         if (!response.ok) throw new Error('The scan could not be downloaded.');
         bytes = await response.arrayBuffer();
       }

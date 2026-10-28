@@ -1,64 +1,196 @@
 {
-  "sourceCommit": "bdd9455dcc03f7ce36c4d40bb445a4a5a023108e",
-  "sourceWorkingTreeClean": true,
-  "files": [
-    {
-      "sourcePath": "dist/index.html",
-      "pagesPath": "index.html",
-      "bytes": 893,
-      "sha256": "6278d79bc00a6efa20ed2902d0e1f1361f883ad498471909aba7008e71d72184"
+  "schemaVersion": 2,
+  "initialSourceSnapshot": {
+    "sourceCommit": "bdd9455dcc03f7ce36c4d40bb445a4a5a023108e",
+    "sourceWorkingTreeClean": true,
+    "files": [
+      {
+        "sourcePath": "dist/index.html",
+        "pagesPath": "index.html",
+        "bytes": 893,
+        "sha256": "6278d79bc00a6efa20ed2902d0e1f1361f883ad498471909aba7008e71d72184"
+      },
+      {
+        "sourcePath": "dist/styles.css",
+        "pagesPath": "styles.css",
+        "bytes": 976,
+        "sha256": "bbb30f9a375d7221a81a0e308fcfc9fe4bbe87f0638cc4f8fb77a6e325b9fb8f"
+      },
+      {
+        "sourcePath": "dist/app.js",
+        "pagesPath": "app.js",
+        "bytes": 1512,
+        "sha256": "6ca9e6ad40007bcac5217ef3e9211927264fda6fb40b24dd2e283dc3900c1e24"
+      },
+      {
+        "sourcePath": "dist/scene-bundle.js",
+        "pagesPath": "scene-bundle.js",
+        "bytes": 690771,
+        "sha256": "2498bffe474715b0b44092a12cddf1d78b0aafcbbeb78a64e037e20afcd57b73"
+      },
+      {
+        "sourcePath": "dist/assets/tabletop-scan.glb",
+        "pagesPath": "assets/tabletop-scan.glb",
+        "bytes": 15785316,
+        "sha256": "6b441a51786facff64aa30078406fc8079d27a280b507ddecd27d318d48ff516"
+      },
+      {
+        "sourcePath": "src/scene.js",
+        "pagesPath": "src/scene.js",
+        "bytes": 28349,
+        "sha256": "d1596e12fc40222f6bfe15aec63bb2782407e482582c82fdd5e5acfb2b445278"
+      },
+      {
+        "sourcePath": "package-lock.json",
+        "pagesPath": "package-lock.json",
+        "bytes": 15528,
+        "sha256": "2ae440114d8f128573c27970fe58b9718bbf04afc475c43d0df04963e4b21906"
+      },
+      {
+        "sourcePath": "package.json",
+        "pagesPath": "package.json",
+        "bytes": 412,
+        "sha256": "eed37f346e8c465c956c80cba5f2c92403d9c352907af1c7d714ee53da87ef18"
+      },
+      {
+        "sourcePath": "scripts/export-standalone.mjs",
+        "pagesPath": "scripts/export-standalone.mjs",
+        "bytes": 1336,
+        "sha256": "32f485d52c8e84359d93b306d520a6976e7f8293798bdb6358d595e0d3fc7516"
+      }
+    ],
+    "adjustments": [
+      "package.json: build:scene outputs scene-bundle.js at the Pages root.",
+      "scripts/export-standalone.mjs: reads the runtime assets from the Pages root instead of dist/."
+    ]
+  },
+  "currentSnapshot": {
+    "modelVersion": "Remesh - Adaptive • 100% • 8k",
+    "modelSource": {
+      "archive": "Remesh - Adaptive • 100% • 8k.zip",
+      "format": "OBJ + MTL + JPEG textures",
+      "archiveSha256": "d92350640b99782405f8a2c0f99149300a5007a69f9438a5b183dedaf53f3d26",
+      "objBytes": 22318756,
+      "objSha256": "bb197b9a1bb1666ed82433caee063c98ffaa0e4246cbee6dafd007d7a966e027",
+      "mtlSha256": "0500c301c9f9acec845944163f6c525291dd265758f6e277fda8d17c21ccbe13"
     },
-    {
-      "sourcePath": "dist/styles.css",
-      "pagesPath": "styles.css",
-      "bytes": 976,
-      "sha256": "bbb30f9a375d7221a81a0e308fcfc9fe4bbe87f0638cc4f8fb77a6e325b9fb8f"
+    "model": {
+      "path": "assets/tabletop-scan.glb",
+      "bytes": 18385888,
+      "sha256": "dc6edd0ae36306a75f5ac574b68aaa8312584c5a0fbbeaf08d302f3070baddc2",
+      "vertices": 139214,
+      "triangles": 186181,
+      "bounds": {
+        "min": [
+          -0.1552170068025589,
+          -0.5708900094032288,
+          -1.6216930150985718
+        ],
+        "max": [
+          0.6649940013885498,
+          -0.1911109983921051,
+          -0.18578900396823883
+        ],
+        "size": [
+          0.8202110081911087,
+          0.37977901101112366,
+          1.435904011130333
+        ],
+        "units": "unspecified"
+      },
+      "textures": [
+        {
+          "name": "f38a542e7554b4a5c232a8dc0e38401b.jpg",
+          "role": "baseColor",
+          "width": 8192,
+          "height": 8192,
+          "bytes": 7054020,
+          "sha256": "6727efc936bd7ceb36c99557a0d833379f13697546a41e240febb8c57b6bc96a",
+          "recompressed": false
+        },
+        {
+          "name": "8320d642d0b585a49faf39c47f915e55.jpg",
+          "role": "normal (preserved; ignored by unlit display)",
+          "width": 8192,
+          "height": 8192,
+          "bytes": 4640752,
+          "sha256": "a930915492e8342183874e0acfbd7a0a790081639d1e9ec8a2d6151387b42dbb",
+          "recompressed": false
+        }
+      ],
+      "geometry": "All source vertices and triangles retained; no cropping, remeshing or decimation.",
+      "material": "KHR_materials_unlit; original colour texture displayed without metallic relighting. Original normal texture retained.",
+      "orientation": "Original Y-up coordinates, no node transform.",
+      "conversion": "Float32 vertex attributes, unit-length normals, V-coordinate inversion for glTF, original JPEG bytes embedded unchanged.",
+      "validation": {
+        "errors": 0,
+        "warnings": 1,
+        "warning": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE: retained normal texture has no explicit tangents; unused by the unlit display."
+      }
     },
-    {
-      "sourcePath": "dist/app.js",
-      "pagesPath": "app.js",
-      "bytes": 1512,
-      "sha256": "6ca9e6ad40007bcac5217ef3e9211927264fda6fb40b24dd2e283dc3900c1e24"
+    "runtime": {
+      "source": "Validated fullscreen personal-domain runtime, using relative paths for GitHub Pages.",
+      "interface": "One fullscreen interactive model canvas; no additional page UI.",
+      "modelCacheToken": "remesh-100-8k-20261028",
+      "appCacheToken": "remesh-100-8k-1",
+      "baseElement": false,
+      "unchangedFromInitial": [
+        "styles.css",
+        "scene-bundle.js",
+        "src/scene.js"
+      ],
+      "changes": [
+        "Replaced the model with the complete 100% remesh and original 8K textures.",
+        "Updated app.js model cache token and index.html app cache token.",
+        "Retained relative URLs without the personal-domain base element."
+      ]
     },
-    {
-      "sourcePath": "dist/scene-bundle.js",
-      "pagesPath": "scene-bundle.js",
-      "bytes": 690771,
-      "sha256": "2498bffe474715b0b44092a12cddf1d78b0aafcbbeb78a64e037e20afcd57b73"
-    },
-    {
-      "sourcePath": "dist/assets/tabletop-scan.glb",
-      "pagesPath": "assets/tabletop-scan.glb",
-      "bytes": 15785316,
-      "sha256": "6b441a51786facff64aa30078406fc8079d27a280b507ddecd27d318d48ff516"
-    },
-    {
-      "sourcePath": "src/scene.js",
-      "pagesPath": "src/scene.js",
-      "bytes": 28349,
-      "sha256": "d1596e12fc40222f6bfe15aec63bb2782407e482582c82fdd5e5acfb2b445278"
-    },
-    {
-      "sourcePath": "package-lock.json",
-      "pagesPath": "package-lock.json",
-      "bytes": 15528,
-      "sha256": "2ae440114d8f128573c27970fe58b9718bbf04afc475c43d0df04963e4b21906"
-    },
-    {
-      "sourcePath": "package.json",
-      "pagesPath": "package.json",
-      "bytes": 412,
-      "sha256": "eed37f346e8c465c956c80cba5f2c92403d9c352907af1c7d714ee53da87ef18"
-    },
-    {
-      "sourcePath": "scripts/export-standalone.mjs",
-      "pagesPath": "scripts/export-standalone.mjs",
-      "bytes": 1336,
-      "sha256": "32f485d52c8e84359d93b306d520a6976e7f8293798bdb6358d595e0d3fc7516"
-    }
-  ],
-  "adjustments": [
-    "package.json: build:scene outputs scene-bundle.js at the Pages root.",
-    "scripts/export-standalone.mjs: reads the runtime assets from the Pages root instead of dist/."
-  ]
+    "files": [
+      {
+        "path": "index.html",
+        "bytes": 897,
+        "sha256": "af83248bbc26aa9b07078ff173be537869b5460d03f839a2ad1c54413c8f5d56"
+      },
+      {
+        "path": "styles.css",
+        "bytes": 976,
+        "sha256": "bbb30f9a375d7221a81a0e308fcfc9fe4bbe87f0638cc4f8fb77a6e325b9fb8f"
+      },
+      {
+        "path": "app.js",
+        "bytes": 1516,
+        "sha256": "d1a28a963a1adefe4e30e601589ce4b289136a029fa1cfaaccd61b90c9bc7241"
+      },
+      {
+        "path": "scene-bundle.js",
+        "bytes": 690771,
+        "sha256": "2498bffe474715b0b44092a12cddf1d78b0aafcbbeb78a64e037e20afcd57b73"
+      },
+      {
+        "path": "assets/tabletop-scan.glb",
+        "bytes": 18385888,
+        "sha256": "dc6edd0ae36306a75f5ac574b68aaa8312584c5a0fbbeaf08d302f3070baddc2"
+      },
+      {
+        "path": "src/scene.js",
+        "bytes": 28349,
+        "sha256": "d1596e12fc40222f6bfe15aec63bb2782407e482582c82fdd5e5acfb2b445278"
+      },
+      {
+        "path": "package.json",
+        "bytes": 407,
+        "sha256": "3c0036a84bc5088737f83354045e1450f9693c04b581f6f0aff10fc11a465c9b"
+      },
+      {
+        "path": "package-lock.json",
+        "bytes": 15528,
+        "sha256": "2ae440114d8f128573c27970fe58b9718bbf04afc475c43d0df04963e4b21906"
+      },
+      {
+        "path": "scripts/export-standalone.mjs",
+        "bytes": 1311,
+        "sha256": "36d87635cccc05db51fc4a719edf622981473c14a33d31b5130397bcaeb12de7"
+      }
+    ]
+  }
 }
