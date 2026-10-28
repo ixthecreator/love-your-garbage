@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eeece2">
+  <meta name="description" content="Three days, one table. An interactive 3D scan.">
+  <title>Three Days, One Table</title>
+  <link rel="stylesheet" href="styles.css?v=fullscreen-1">
+</head>
+<body>
+  <main id="tabletop" aria-label="Three days, one table" aria-busy="true">
+    <canvas id="tabletop-canvas" tabindex="0" aria-label="3D tabletop scan. Drag to rotate, scroll or pinch to zoom. Use arrow keys to pan, plus and minus to zoom, Home to reset."></canvas>
+    <p id="load-error" role="alert" hidden></p>
+    <noscript>Enable JavaScript to view the 3D scan.</noscript>
+  </main>
+  <script src="scene-bundle.js"></script>
+  <script src="app.js?v=remesh-8k-1"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+{
+  "sourceCommit": "bdd9455dcc03f7ce36c4d40bb445a4a5a023108e",
+  "sourceWorkingTreeClean": true,
+  "files": [
+    {
+      "sourcePath": "dist/index.html",
+      "pagesPath": "index.html",
+      "bytes": 893,
+      "sha256": "6278d79bc00a6efa20ed2902d0e1f1361f883ad498471909aba7008e71d72184"
+    },
+    {
+      "sourcePath": "dist/styles.css",
+      "pagesPath": "styles.css",
+      "bytes": 976,
+      "sha256": "bbb30f9a375d7221a81a0e308fcfc9fe4bbe87f0638cc4f8fb77a6e325b9fb8f"
+    },
+    {
+      "sourcePath": "dist/app.js",
+      "pagesPath": "app.js",
+      "bytes": 1512,
+      "sha256": "6ca9e6ad40007bcac5217ef3e9211927264fda6fb40b24dd2e283dc3900c1e24"
+    },
+    {
+      "sourcePath": "dist/scene-bundle.js",
+      "pagesPath": "scene-bundle.js",
+      "bytes": 690771,
+      "sha256": "2498bffe474715b0b44092a12cddf1d78b0aafcbbeb78a64e037e20afcd57b73"
+    },
+    {
+      "sourcePath": "dist/assets/tabletop-scan.glb",
+      "pagesPath": "assets/tabletop-scan.glb",
+      "bytes": 15785316,
+      "sha256": "6b441a51786facff64aa30078406fc8079d27a280b507ddecd27d318d48ff516"
+    },
+    {
+      "sourcePath": "src/scene.js",
+      "pagesPath": "src/scene.js",
+      "bytes": 28349,
+      "sha256": "d1596e12fc40222f6bfe15aec63bb2782407e482582c82fdd5e5acfb2b445278"
+    },
+    {
+      "sourcePath": "package-lock.json",
+      "pagesPath": "package-lock.json",
+      "bytes": 15528,
+      "sha256": "2ae440114d8f128573c27970fe58b9718bbf04afc475c43d0df04963e4b21906"
+    },
+    {
+      "sourcePath": "package.json",
+      "pagesPath": "package.json",
+      "bytes": 412,
+      "sha256": "eed37f346e8c465c956c80cba5f2c92403d9c352907af1c7d714ee53da87ef18"
+    },
+    {
+      "sourcePath": "scripts/export-standalone.mjs",
+      "pagesPath": "scripts/export-standalone.mjs",
+      "bytes": 1336,
+      "sha256": "32f485d52c8e84359d93b306d520a6976e7f8293798bdb6358d595e0d3fc7516"
+    }
+  ],
+  "adjustments": [
+    "package.json: build:scene outputs scene-bundle.js at the Pages root.",
+    "scripts/export-standalone.mjs: reads the runtime assets from the Pages root instead of dist/."
+  ]
+}

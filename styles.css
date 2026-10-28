@@ -1,0 +1,12 @@
+:root { color-scheme: light; background: #eeece2; }
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; overscroll-behavior: none; }
+body { background: #eeece2; }
+#tabletop { position: fixed; inset: 0; width: 100%; height: 100%; height: 100dvh; }
+#tabletop-canvas { display: block; width: 100%; height: 100%; opacity: 0; outline: none; touch-action: none; cursor: grab; transition: opacity .25s ease; }
+#tabletop[data-ready="true"] #tabletop-canvas { opacity: 1; }
+#tabletop-canvas:active { cursor: grabbing; }
+#tabletop-canvas:focus-visible { outline: 2px solid #54624a; outline-offset: -3px; }
+#load-error, noscript { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(30rem, 80%); margin: 0; font: 16px/1.5 system-ui, sans-serif; text-align: center; color: #3c4035; }
+[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) { #tabletop-canvas { transition: none; } }

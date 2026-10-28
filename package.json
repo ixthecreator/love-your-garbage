@@ -1,0 +1,16 @@
+{
+  "name": "love-your-garbage-tabletop",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build:scene": "esbuild src/scene.js --bundle --minify --format=iife --target=es2020 --outfile=scene-bundle.js --legal-comments=inline"
+  },
+  "dependencies": {
+    "fflate": "0.8.3",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "gltf-validator": "2.0.0-dev.3.10"
+  }
+}
